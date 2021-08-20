@@ -1,0 +1,166 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+}
+
+body{
+    background-image: url(https://chemical.eng.usm.my/ICENV2021/images/usm_logo.png);
+    background-repeat: no-repeat;
+    background-size: 100;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ff9d00;
+}
+.navbar h1 
+{
+    color: #0c0c0c;
+}
+.navbar .nav-links
+{
+    margin-left: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    color: #006eff;
+}
+.container {
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.confession-item {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+.confession-item:hover{
+    box-shadow: 1px 3px 5px rgba(0, 0,0, 0.1);
+}
+
+.confession-item h2 {
+    font-size: 25px;
+    color: #ea00ff;
+    margin-bottom: 15px;
+}
+
+.confession-item a {
+    text-decoration: none;
+}
+.confession-details h2{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.confession-details div
+{
+    max-width: 850px;
+    margin: 15px 0;
+}
+
+.confession-details button:hover{
+    background-color: #ea00ff;
+}
+
+.post_img{
+    max-width: 350px;
+    margin: 10 0;
+}
+
+.approval_button {
+	text-align: center;
+}
+.view_comment_container {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    height: 250px;
+}
+
+.comment {
+    padding-bottom: 20;
+    padding-top: 10;
+    border-bottom: 1px solid #1d1c1c3d;
+}
+.comment_container {
+    max-width: 900px;
+    margin: 30px auto;
+    
+}
+
+hr{
+    
+    max-width: 900;
+    margin: 2 auto;
+    color: rgba(68, 70, 69, 0.658);
+}
+
+.comment_container textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    display: block;
+    box-sizing: border-box;
+}
+
+.create{
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+.create label {
+    text-align: left;
+    display: block;
+}
+
+.create h2 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.create input, .create select, .create textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    display: block;
+    box-sizing: border-box;
+}
+
+.selection_button {
+    background-color: #005085;
+    border: 0;
+    width: 100px;
+    font-size: 15px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0 30;
+}
+
+.create button:hover { 
+    background-color: #ea00ff;
+}
+
+div .textarea{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
